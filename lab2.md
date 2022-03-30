@@ -8,7 +8,7 @@ https://online.visual-paradigm.com/cn/
 
 <u>主要问题是单据的生成和处理；是否需要进一步细分？</u>
 
-![system-cases](lab2-sol.assets/system-cases.svg)
+![system-cases](lab2.assets/system-cases.svg)
 
 
 

@@ -14,13 +14,13 @@ https://online.visual-paradigm.com/cn/
 
 ### 完成库存模块的用例描述
 
-<u>区分库存管理人员和仓库管理员</u>
+<u>注意区分库存管理人员和仓库管理员</u>
 
 
 
 #### 商品入库
 
-<u>单据未生成，系统和实际库存数据已更新</u>
+<u>单据未生成；系统和实际库存数据已更新</u>
 
 <table>
     <tr>
@@ -78,7 +78,7 @@ https://online.visual-paradigm.com/cn/
 
 #### 商品出库
 
-<u>单据未生成，系统和实际库存数据已更新</u>
+<u>单据未生成；系统和实际库存数据已更新</u>
 
 <table>
     <tr>
@@ -241,7 +241,7 @@ https://online.visual-paradigm.com/cn/
 
 #### 库存赠送
 
-<u>单据已生成，系统和实际库存数据未更新</u>
+<u>单据已生成；系统和实际库存数据未更新</u>
 
 <table>
     <tr>
@@ -305,7 +305,7 @@ https://online.visual-paradigm.com/cn/
 
 #### 库存报溢
 
-<u>单据未生成，系统库存数据未更新</u>
+<u>单据未生成；系统库存数据未更新</u>
 
 <table>
     <tr>
@@ -365,7 +365,7 @@ https://online.visual-paradigm.com/cn/
 
 #### 库存报损
 
-<u>单据未生成，系统库存数据未更新</u>
+<u>单据未生成；系统库存数据未更新</u>
 
 <table>
     <tr>

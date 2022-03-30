@@ -65,14 +65,15 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
-        <td></td>
+        <td>扩展流程</td>
+        <td>库存管理⼈员发现之前输入的入库信息有误</td>
     </tr>
     <tr>
         <td>特殊需求</td>
         <td></td>
     </tr>
 </table>
+
 
 
 
@@ -123,14 +124,15 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
-        <td></td>
+        <td>扩展流程</td>
+        <td>库存管理⼈员发现之前输入的出库信息有误</td>
     </tr>
     <tr>
         <td>特殊需求</td>
         <td></td>
     </tr>
 </table>
+
 
 
 
@@ -175,7 +177,7 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
+        <td>扩展流程</td>
         <td></td>
     </tr>
     <tr>
@@ -227,7 +229,7 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
+        <td>扩展流程</td>
         <td></td>
     </tr>
     <tr>
@@ -286,7 +288,7 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
+        <td>扩展流程</td>
         <td>
             <ol>
                 <li>商品数量不足，系统回滚操作</li>
@@ -350,7 +352,7 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
+        <td>扩展流程</td>
         <td>  
         </td>
     </tr>
@@ -410,7 +412,7 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
+        <td>扩展流程</td>
         <td>系统在库存中查询不到对应的商品</td>
     </tr>
     <tr>

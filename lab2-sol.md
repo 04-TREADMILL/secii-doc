@@ -8,7 +8,7 @@ https://online.visual-paradigm.com/cn/
 
 <u>主要问题是单据的生成和处理；是否需要进一步细分？</u>
 
-![system-cases](lab2-sol.assets/system-cases.svg)
+![system-cases](lab2.assets/system-cases.svg)
 
 
 
@@ -65,14 +65,15 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
-        <td></td>
+        <td>扩展流程</td>
+        <td>库存管理⼈员发现之前输入的入库信息有误</td>
     </tr>
     <tr>
         <td>特殊需求</td>
         <td></td>
     </tr>
 </table>
+
 
 
 
@@ -123,14 +124,15 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
-        <td></td>
+        <td>扩展流程</td>
+        <td>库存管理⼈员发现之前输入的出库信息有误</td>
     </tr>
     <tr>
         <td>特殊需求</td>
         <td></td>
     </tr>
 </table>
+
 
 
 
@@ -175,7 +177,7 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
+        <td>扩展流程</td>
         <td></td>
     </tr>
     <tr>
@@ -227,7 +229,7 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
+        <td>扩展流程</td>
         <td></td>
     </tr>
     <tr>
@@ -286,7 +288,7 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
+        <td>扩展流程</td>
         <td>
             <ol>
                 <li>商品数量不足，系统回滚操作</li>
@@ -350,7 +352,7 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
+        <td>扩展流程</td>
         <td>  
         </td>
     </tr>
@@ -410,7 +412,7 @@ https://online.visual-paradigm.com/cn/
         </td>
     </tr>
     <tr>
-        <td>拓展流程</td>
+        <td>扩展流程</td>
         <td>系统在库存中查询不到对应的商品</td>
     </tr>
     <tr>
@@ -423,4 +425,56 @@ https://online.visual-paradigm.com/cn/
 
 #### 库存报警
 
-<u>系统库存总数量？是否需要生成单据？</u>
+<u>单据未生成，系统库存数据未更新</u>
+
+<table>
+    <tr>
+        <td>用例项目</td>
+        <td>内容描述</td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>名称</td>
+        <td>库存报警</td>
+    </tr>
+    <tr>
+        <td>参与者</td>
+        <td>库存管理人员</td>
+    </tr>
+    <tr>
+        <td>触发条件</td>
+        <td>库存数量低于警戒数量</td>
+    </tr>
+    <tr>
+        <td>前置条件</td>
+        <td>库存管理人员必须已经被识别和授权</td>
+    </tr>
+    <tr>
+        <td>后置条件</td>
+        <td>生成库存报警单；更新系统库存数据；记录系统操作并写⼊系统⽇志</td>
+    </tr>
+    <tr>
+        <td>正常流程</td>
+        <td>
+            <ol>
+               <li>库存管理人员选择开始一次库存报警任务，系统响应</li>
+                <li>库存管理⼈员输出商品名称关键字或编号，系统在库存中查询对应的商品并显示</li>
+                <li>库存管理⼈员输出该商品比警戒数量低的数量，系统将其保存并显示</li>
+                库存管理⼈员重复 2~3 步，直到完成所有需要报警的商品信息输出
+                <li>库存管理⼈员确认并结束本次库存报警任务，系统生成并保存库存报警单</li>
+                <li>库存报警单通过审批后，系统自动在库存中增加商品使库存数量高于警戒数量</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>扩展流程</td>
+    </tr>
+    <tr>
+        <td>特殊需求</td>
+        <td></td>
+    </tr>
+</table>
+

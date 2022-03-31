@@ -8,7 +8,7 @@ https://online.visual-paradigm.com/cn/
 
 <u>主要问题是单据的生成和处理；是否需要进一步细分？</u>
 
-![system-cases](lab2.assets/system-cases.svg)
+![system-cases](lab2.assets/system-cases.jpg)
 
 
 
@@ -425,7 +425,7 @@ https://online.visual-paradigm.com/cn/
 
 #### 库存报警
 
-<u>单据未生成，系统库存数据未更新</u>
+<u>单据未生成</u>
 
 <table>
     <tr>
@@ -446,7 +446,7 @@ https://online.visual-paradigm.com/cn/
     </tr>
     <tr>
         <td>触发条件</td>
-        <td>库存数量低于警戒数量</td>
+        <td>系统库存数量低于警戒数量</td>
     </tr>
     <tr>
         <td>前置条件</td>
@@ -454,7 +454,7 @@ https://online.visual-paradigm.com/cn/
     </tr>
     <tr>
         <td>后置条件</td>
-        <td>生成库存报警单；更新系统库存数据；记录系统操作并写⼊系统⽇志</td>
+        <td>生成库存报警单；记录系统操作并写⼊系统⽇志</td>
     </tr>
     <tr>
         <td>正常流程</td>
@@ -465,7 +465,7 @@ https://online.visual-paradigm.com/cn/
                 <li>库存管理⼈员输出该商品比警戒数量低的数量，系统将其保存并显示</li>
                 库存管理⼈员重复 2~3 步，直到完成所有需要报警的商品信息输出
                 <li>库存管理⼈员确认并结束本次库存报警任务，系统生成并保存库存报警单</li>
-                <li>库存报警单通过审批后，系统自动在库存中增加商品使库存数量高于警戒数量</li>
+                <li>库存报警单通过审批后，向仓库管理员发送消息</li>
             </ol>
         </td>
     </tr>

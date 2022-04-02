@@ -74,7 +74,7 @@
 
 ![sales-class](lab3.assets/sales-class.svg)
 
-
+![销售模块概念类图](lab3.assets\销售模块概念类图.svg)
 
 
 

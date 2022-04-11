@@ -80,9 +80,7 @@
 
 ### 查看经营历程表的系统顺序图
 
-似乎没有 opt 和 loop 组件
-
-![business-process-sequence](lab3.assets/business-process-sequence.svg)
+![经营历程表系统顺序图](D:\courses\SoftwareEngineering\SEII\Lab\secii-lab\lab3.assets\经营历程表系统顺序图.svg)
 
 
 

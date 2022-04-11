@@ -135,13 +135,13 @@
 
 #### 销售处理概念类图
 
-![销售模块概念类图](lab3.assets\销售模块概念类图.svg)
+![销售模块概念类图](lab3.assets/销售模块概念类图.svg)
 
 
 
 ### 查看经营历程表的系统顺序图
 
-![经营历程表系统顺序图](D:\courses\SoftwareEngineering\SEII\Lab\secii-lab\lab3.assets\经营历程表系统顺序图.svg)
+![经营历程表系统顺序图](lab3.assets/经营历程表系统顺序图.svg)
 
 
 

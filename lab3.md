@@ -152,7 +152,7 @@
 
 ### 单据的状态图
 
-![receipt-state](lab3.assets/receipt-state.svg)
+![receipt-state.drawio](lab3.assets/receipt-state.drawio.svg)
 
 
 

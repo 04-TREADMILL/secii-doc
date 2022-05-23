@@ -51,43 +51,43 @@ ERP 系统的最终开发包设计如下表。
 | promotionui          | promotionblservice, 界面类库包                               |
 | promotionblservice   |                                                              |
 | promotionbl          | promotionblservice, promotiondataservice, po                 |
-| promotiondataservice | Java RMI, po                                                 |
-| promotiondata        | Java RMI, po, databaseutility                                |
+| promotiondataservice | HTTP/HTTPS, po                                               |
+| promotiondata        | HTTP/HTTPS, po, databaseutility                              |
 | saleui               | saleblservice, 界面类库包                                    |
 | saleblservice        |                                                              |
 | salebl               | saleblservice, saledataservice, commoditybl, custombl, userbl, promotionbl, po |
-| saledataservice      | Java RMI, po                                                 |
-| saledata             | Java RMI, po, databaseutility                                |
+| saledataservice      | HTTP/HTTPS, po                                               |
+| saledata             | HTTP/HTTPS, po, databaseutility                              |
 | commodityui          | commodityblservice, 界面类库包, vo                           |
 | commodityblservice   |                                                              |
 | commoditybl          | commodityblservice, commoditydataservice, salebl, po         |
-| commoditydataservice | Java RMI, po                                                 |
-| commoditydata        | Java RMI, po, databaseutility                                |
+| commoditydataservice | HTTP/HTTPS, po                                               |
+| commoditydata        | HTTP/HTTPS, po, databaseutility                              |
 | financeui            |                                                              |
 | financeblservice     |                                                              |
 | financebl            | financeblservice, financedataservice, salebl, purchasebl, userbl, custombl, po |
-| financedataservice   | Java RMI, po                                                 |
-| financedata          | Java RMI, po, databaseutility                                |
+| financedataservice   | HTTP/HTTPS, po                                               |
+| financedata          | HTTP/HTTPS, po, databaseutility                              |
 | customui             | customblservice, 界面类库包, vo                              |
 | customblservice      |                                                              |
 | custombl             | customblservice, customdataservice, po                       |
-| customdataservice    | Java RMI, po                                                 |
-| customdata           | Java RMI, po, databaseutility                                |
+| customdataservice    | HTTP/HTTPS, po                                               |
+| customdata           | HTTP/HTTPS, po, databaseutility                              |
 | purchaseui           | purchaseblservice, 界面类库包                                |
 | purchaseblservice    |                                                              |
 | purchasebl           | purchaseblservice, purchasedataservice, custombl, userbl, po |
-| purchasedataservice  | Java RMI, po                                                 |
-| purchasedata         | Java RMI, po, databaseutility                                |
+| purchasedataservice  | HTTP/HTTPS, po                                               |
+| purchasedata         | HTTP/HTTPS, po, databaseutility                              |
 | employeeui           | employeeblservice, 界面类库包, vo                            |
 | employeeblservice    |                                                              |
 | employeebl           | employeeblservice, employeedataservice, userbl, po           |
-| employeedataservice  | Java RMI, po                                                 |
-| employeedata         | Java RMI, po, databaseutility                                |
+| employeedataservice  | HTTP/HTTPS, po                                               |
+| employeedata         | HTTP/HTTPS, po, databaseutility                              |
 | userui               | userblservice, 界面类库包, vo                                |
 | userblservice        |                                                              |
 | userbl               | userblservice, userdataservice, po                           |
-| userdataservice      | Java RMI, po                                                 |
-| userdata             | Java RMI, po, databaseutility                                |
+| userdataservice      | HTTP/HTTPS, po                                               |
+| userdata             | HTTP/HTTPS, po, databaseutility                              |
 | vo                   |                                                              |
 | po                   |                                                              |
 | utilitybl            |                                                              |

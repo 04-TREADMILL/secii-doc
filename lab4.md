@@ -95,19 +95,19 @@ UI 1 商品分类处理 ： 系统应该使用Form风格的界面，帮助销售
 
 - 用户界面：
 
-  ![](lab4.assets/%E5%95%86%E5%93%81%E5%88%86%E7%B1%BB%E7%AE%A1%E7%90%86%E7%95%8C%E9%9D%A2.jpg)
+  ![](lab4.assets/商品分类管理界面.jpg)
 
 - UI 1.1 新增商品分类
 
-  ![](lab4.assets/%E6%96%B0%E5%A2%9E%E5%88%86%E7%B1%BB%E5%95%86%E5%93%81.jpg)
+  ![](lab4.assets/新增分类商品.jpg)
 
 - UI 1.2 新增商品出现异常
 
-  ![](lab4.assets/%E6%96%B0%E5%A2%9E%E9%94%99%E8%AF%AF.jpg)
+  ![](lab4.assets/新增错误.jpg)
 
 - UI 1.3 修改分类信息
 
-  ![](lab4.assets/%E4%BF%AE%E6%94%B9%E5%88%86%E7%B1%BB%E4%BF%A1%E6%81%AF.jpg)
+  ![](lab4.assets/修改分类信息.jpg)
 
 **... ...**
 
